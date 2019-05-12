@@ -1,4 +1,4 @@
-export const loginRequest = async (login, password) => {
+const loginRequest = async (login, password) => {
 
     return await new Promise((resolve) => {
       setTimeout(() => {
@@ -12,3 +12,5 @@ export const loginRequest = async (login, password) => {
       }
     })
   } 
+
+export default loginRequest;
